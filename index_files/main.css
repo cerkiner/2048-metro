@@ -1,6 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
   background: #faf8ef;
   color: #776e65;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
