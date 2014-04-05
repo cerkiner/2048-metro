@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="./index_files/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="http://gabrielecirulli.github.io/2048/favicon.ico">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+<style type="text/css"></style></head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">2424</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Rakamları birleştir ve <strong>2048'e ulaş!</strong></p>
+      <a class="restart-button">Yeni Oyun</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Devam</a>
+          <a class="retry-button">Tekrar</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-2 tile-position-2-2 tile-new"><div class="tile-inner">2</div></div><div class="tile tile-2 tile-position-3-3 tile-new"><div class="tile-inner">2</div></div></div>
+    </div>
+  </div>
+
+  <script src="./index_files/bind_polyfill.js"></script>
+  <script src="./index_files/classlist_polyfill.js"></script>
+  <script src="./index_files/animframe_polyfill.js"></script>
+  <script src="./index_files/keyboard_input_manager.js"></script>
+  <script src="./index_files/html_actuator.js"></script>
+  <script src="./index_files/grid.js"></script>
+  <script src="./index_files/tile.js"></script>
+  <script src="./index_files/local_storage_manager.js"></script>
+  <script src="./index_files/game_manager.js"></script>
+  <script src="./index_files/application.js"></script>
+
+
+</body></html>
